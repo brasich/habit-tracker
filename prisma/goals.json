@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Apartment Clean",
+        "description": "Apartment is clean before bed",
+        "type": "check",
+        "target": "1",
+        "reset_frequency": "daily",
+        "reset_to": "0",
+        "current_val": "1"
+    },
+    {
+        "name": "Workout Done",
+        "description": "Completed today's scheduled workout or rest",
+        "type": "check",
+        "target": "1",
+        "reset_frequency": "daily",
+        "reset_to": "0",
+        "current_val": "0"
+    },
+    {
+        "name": "Sleep",
+        "description": "Went to bed last night without screens. Overtrained = Underrested",
+        "type": "check",
+        "target": "1",
+        "reset_frequency": "daily",
+        "reset_to": "0",
+        "current_val": "0"
+    },
+    {
+        "name": "Weight Sessions",
+        "description": "Hit weekly goal in weight training",
+        "type": "count",
+        "target": "3",
+        "reset_frequency": "weekly",
+        "reset_to": "0",
+        "current_val": "1"
+    },
+    {
+        "name": "Climbing Sessions",
+        "description": "Hit weekly goal for climbing sessions",
+        "type": "count",
+        "target": "3",
+        "reset_frequency": "weekly",
+        "reset_to": "0",
+        "current_val": "2"
+    },
+    {
+        "name": "Core Sessions",
+        "description": "Hit weekly goal for core sessions",
+        "type": "count",
+        "target": "3",
+        "reset_frequency": "weekly",
+        "reset_to": "0",
+        "current_val": "0"
+    },
+    {
+        "name": "Workout Plan",
+        "description": "Set workout plan for the week",
+        "type": "check",
+        "target": "1",
+        "reset_frequency": "weekly",
+        "reset_to": "0",
+        "current_val": "0"
+    },
+    {
+        "name": "Meal Plan",
+        "description": "Set meal plan for the week",
+        "type": "check",
+        "target": "1",
+        "reset_frequency": "weekly",
+        "reset_to": "0",
+        "current_val": "1"
+    },
+    {
+        "name": "Ate Well",
+        "description": "didn't eat trash today",
+        "type": "check",
+        "target": "1",
+        "reset_frequency": "daily",
+        "reset_to": "0",
+        "current_val": "0"
+    },
+    {
+        "name": "Training Log",
+        "description": "Describe how today's training went",
+        "type": "text",
+        "target": "n/a",
+        "reset_frequency": "daily",
+        "reset_to": "",
+        "current_val": "Fueled well, but feeling this weekend in the legs."
+    },
+    {
+        "name": "General Thoughts",
+        "description": "Describe how today went generally",
+        "type": "text",
+        "target": "n/a",
+        "reset_frequency": "daily",
+        "reset_to:": "",
+        "current_val": ""
+    }
+]
